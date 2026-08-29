@@ -148,13 +148,13 @@ export function ScrollytellingLanding() {
         className="relative mx-auto max-w-7xl bg-flextock-dark px-6 py-28 text-white lg:px-10 lg:py-40"
       >
         <div className="mb-24 grid gap-8 md:grid-cols-[1fr_1.5fr] md:items-end">
-          <p className="text-xs font-medium uppercase tracking-[0.22em] text-gray-300">
+          <p className="text-xs font-medium uppercase tracking-[0.22em] text-flextock-muted">
             {journeySection.eyebrow}
           </p>
           <h2 className="max-w-3xl text-5xl font-medium leading-[0.95] tracking-[-0.07em] md:text-7xl">
             {journeySection.title}
             <br />
-            <span className="text-gray-400">{journeySection.titleAccent}</span>
+            <span className="text-flextock-muted/70">{journeySection.titleAccent}</span>
           </h2>
         </div>
 
@@ -189,7 +189,7 @@ export function ScrollytellingLanding() {
                   </div>
                   <div className={isEven ? "md:order-2" : ""}>
                     <div
-                      className={`mb-7 flex items-center gap-3 text-gray-300 ${
+                      className={`mb-7 flex items-center gap-3 text-flextock-muted ${
                         isEven ? "md:justify-end" : ""
                       }`}
                     >
@@ -214,7 +214,7 @@ export function ScrollytellingLanding() {
                       }`}
                     >
                       <Icon size={30} strokeWidth={1.5} />
-                      <p className="max-w-xs text-base leading-6 text-gray-200">
+                      <p className="max-w-xs text-base leading-6 text-flextock-foreground/90">
                         {stage.description}
                       </p>
                     </div>
@@ -232,14 +232,14 @@ export function ScrollytellingLanding() {
       >
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-12 md:grid-cols-[1fr_1.5fr]">
-            <p className="text-xs font-medium uppercase tracking-[0.22em] text-gray-300">
+            <p className="text-xs font-medium uppercase tracking-[0.22em] text-flextock-muted">
               {solutionsSection.eyebrow}
             </p>
             <div>
               <h2 className="max-w-2xl text-5xl font-medium leading-[0.95] tracking-[-0.07em] md:text-7xl">
                 {solutionsSection.title}
                 <br />
-                <span className="text-gray-400">
+                <span className="text-flextock-muted/70">
                   {solutionsSection.titleAccent}
                 </span>
               </h2>
@@ -250,14 +250,14 @@ export function ScrollytellingLanding() {
                     className="group flex items-center justify-between gap-6 py-6"
                   >
                     <div className="flex items-center gap-6">
-                      <span className="font-mono text-xs text-gray-400">
+                      <span className="font-mono text-xs text-flextock-muted/70">
                         0{index + 1}
                       </span>
                       <div>
                         <h3 className="text-xl font-medium tracking-[-0.03em]">
                           {service.title}
                         </h3>
-                        <p className="mt-1 text-sm text-gray-300">
+                        <p className="mt-1 text-sm text-flextock-muted">
                           {service.description}
                         </p>
                       </div>
@@ -277,7 +277,7 @@ export function ScrollytellingLanding() {
                 <p className="text-5xl font-medium tracking-[-0.07em] md:text-6xl">
                   {metric.value}
                 </p>
-                <p className="mt-2 text-sm text-gray-400">{metric.label}</p>
+                <p className="mt-2 text-sm text-flextock-muted/70">{metric.label}</p>
               </div>
             ))}
           </div>
