@@ -10,15 +10,20 @@ const config: Config = {
     extend: {
       colors: {
         flextock: {
-          background: "#0F1115",
-          dark: "#0F1115",
-          neon: "#D2F34C",
-          foreground: "#FFFFFF",
-          muted: "#D1D5DB",
+          background: "#071522",
+          navy: "#071522",
+          dark: "#061321",
+          panel: "#10283A",
+          panelStrong: "#16384B",
+          neon: "#70C48F",
+          foreground: "#F4F7F3",
+          muted: "#9BAAB5",
+          line: "#284255",
+          sand: "#E8E5D7",
         },
       },
       fontFamily: {
-        sans: ["var(--font-juturu)", "sans-serif"],
+        sans: ["var(--font-geist-sans)", "Arial", "sans-serif"],
       },
     },
   },
